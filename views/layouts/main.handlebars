@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castle Door</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        {{#if logged_in}}
+        {{> navigation}}
+        {{/if}}
+    </div>
+    <div class="mainBody">
+        <main class="container">
+            {{{ body }}}
+        </main>
+    </div>
+    <script src="/js/login.js"></script>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castle Door</title>
+</head>
+<body>
+    <div class="navigation">
+
+    </div>
+</body>
+</html> -->
